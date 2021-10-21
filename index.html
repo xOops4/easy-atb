@@ -4,12 +4,31 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/main.css">
-    <script src="js/app.js"></script>
+    <script defer src="js/app.js"></script>
+    <link rel="shortcut icon" href="img/favicon-512.png" type="image/x-png">
     <link rel="manifest" href="manifest.json">
-    <title>Easy Antibio Proxylaxis</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Round"rel="stylesheet"><link href="https://fonts.googleapis.com/css2?family=Nunito:wght@200;400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/main.css">
+    <title>APE - Antibio Proxylaxis Easy</title>
 </head>
 <body>
-    
+    <header>
+        <div class="logo f1 center"  onClick="toggleScreen('specialite');">
+            <img src="img/favicon-512.png" width="40" alt="Logo EAP" srcset="">
+        </div>
+        <div class="title center f4"  onClick="toggleScreen('specialite');">Antibio Prophylaxis Easy</div>
+
+        <div class="logo f1 center">
+            <span class="material-icons-round mid-icon white">search</span>
+        </div>
+    </header>
+    <main>
+        <div class="screen active" id="specialite"></div>
+        <div class="screen" id="intervention"></div>
+        <div class="screen" id="recherche"></div>
+        <div class="screen" id="apropos"></div>
+    </main>
 </body>
 </html>

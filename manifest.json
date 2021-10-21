@@ -1,0 +1,24 @@
+{
+    "short_name": "Easy AntiobioProphylaxis",
+    "name": "Antibioprophylaxie en 1 click au bloc opératoire",
+    "icons": [
+      {
+        "src": "img/favicon-512.png",
+        "type": "image/png",
+        "sizes": "512x512"
+      },
+      {
+        "src": "img/favicon-512.png",
+        "type": "image/png",
+        "sizes": "512x512",
+        "purpose": "any maskable"
+      }
+    ],
+    "start_url": "/",
+    "background_color": "#FFFFFF",
+    "display": "standalone",
+    "scope": "/",
+    "theme_color": "#FFFFFF",
+    "orientation" : "portrait",
+    "description": "Antibioprophylaxie en 1 click au bloc opératoire"
+  }
