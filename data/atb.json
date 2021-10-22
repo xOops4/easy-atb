@@ -23,7 +23,7 @@
                 "icon" : "face",
                 "couleur" : "darkgreen",
                 "color" : "white",
-                "bact_cible" : "Staphyloccoques, S. pneumoniae, H. inflenzae, bactéries à Gram négatif"
+                "bact_cible" : "Streptococcus, bactéries anaérobies, S. aureus, K. pneumoniae , E. coli"
             },
             {
                 "nom": "Plastique",
@@ -195,6 +195,122 @@
                 "alternate_atb": "Céfamandole 1,5g IV lente (si durée > à 4h, réinjecter 0,75g) <br> Céfuroxime 1,5g IV lente (si durée > à 4h, réinjecter 0,75g)",
                 "allergy_atb": "Dalacine 900mg IVL lente (si durée > 4h, réinjecter 600mg) + Gentamicine 5mg/kg/j (dose unique)",
                 "remarques" : "L’injection doit se terminer au plus tard lors du début de l’intervention et aux mieux 30 minutes avant"
+            },
+            {
+                "specialite" : "thoracique",
+                "intervention" : "Drainage péricardique",
+                "mesh" : "drainage péricardique pericarde pericardique cardiaque thoracique",
+                "display" : "Aucun",
+                "chir_code" :  "vasc_veine", 
+                "main_atb" : "",
+                "alternate_atb": "",
+                "allergy_atb": "",
+                "remarques" : ""
+            },
+
+
+            {
+                "specialite" : "orl",
+                "intervention" : "Chirurgie rhinologique + greffon",
+                "mesh" : "rhinologie orl",
+                "display" : "Céfazoline 2g",
+                "chir_code" :  "orl_rhino_greffon", 
+                "main_atb" : "Céfazoline 2g IV lente (dose unique)",
+                "alternate_atb": "Augmentin 2g IV lente (dose unique)",
+                "allergy_atb": "Dalacine 900mg IVL lente (si durée > 4h, réinjecter 600mg) + Gentamicine 5mg/kg/j (dose unique)",
+                "remarques" : ""
+            },
+            {
+                "specialite" : "orl",
+                "intervention" : "Chirurgie cervicofaciale + ouverture bucco-pharyngée",
+                "mesh" : "rhinologie orl",
+                "display" : "Augmentin 2g",
+                "chir_code" :  "orl_cervico_facial", 
+                "main_atb" : "Augmentin 2g IV lente (réinjection 1g toutes les 2h en per opératoire, puis 1g toutes les 6h pendant 24h)",
+                "alternate_atb": "",
+                "allergy_atb": "Dalacine 900mg IVL lente (si durée > 4h, réinjecter 600mg) + Gentamicine 5mg/kg/j (dose unique)",
+                "remarques" : ""
+            },
+            {
+                "specialite" : "orl",
+                "intervention" : "Chirurgie oreille moyenne",
+                "mesh" : "oreille moyenne etrier étrier orl",
+                "display" : "Aucun",
+                "chir_code" :  "orl_oreille_moyenne", 
+                "main_atb" : "",
+                "alternate_atb": "",
+                "allergy_atb": "",
+                "remarques" : ""
+            },
+
+            {
+                "specialite" : "orl",
+                "intervention" : "Glande salivaire sans accès par cavité buccopharyngée",
+                "mesh" : "glande salivaire orl",
+                "display" : "Aucun",
+                "chir_code" :  "orl_glande_salivaire", 
+                "main_atb" : "",
+                "alternate_atb": "",
+                "allergy_atb": "",
+                "remarques" : ""
+            },
+
+            {
+                "specialite" : "orl",
+                "intervention" : "Cervicotomie",
+                "mesh" : "cervicotomie orl",
+                "display" : "Aucun",
+                "chir_code" :  "orl_cervicotomie", 
+                "main_atb" : "",
+                "alternate_atb": "",
+                "allergy_atb": "",
+                "remarques" : ""
+            },
+
+            {
+                "specialite" : "orl",
+                "intervention" : "Curage ganglionnaire",
+                "mesh" : "curage ganglionnaireorl",
+                "display" : "Aucun",
+                "chir_code" :  "orl_curage ganglionnaire", 
+                "main_atb" : "",
+                "alternate_atb": "",
+                "allergy_atb": "",
+                "remarques" : ""
+            },
+
+            {
+                "specialite" : "orl",
+                "intervention" : "Chirurgie vélopalatine",
+                "mesh" : "velopalatine palais voile orl",
+                "display" : "Aucun",
+                "chir_code" :  "orl_velopalat", 
+                "main_atb" : "",
+                "alternate_atb": "",
+                "allergy_atb": "",
+                "remarques" : ""
+            },
+            {
+            "specialite" : "orl",
+            "intervention" : "Chirurgie nasosinusienne + méchage",
+            "mesh" : "nasale sinus mechage méchage nasosinusienne orl",
+            "display" : "Augmentin 2g",
+            "chir_code" :  "orl_cervico_facial", 
+            "main_atb" : "Augmentin 2g IV lente (réinjection 1g toutes les 2h en per opératoire, puis 1g toutes les 6h pendant 24h)",
+            "alternate_atb": "",
+            "allergy_atb": "Dalacine 900mg IVL lente (si durée > 4h, réinjecter 600mg) + Gentamicine 5mg/kg/j (dose unique)",
+            "remarques" : ""
+            },
+            {
+            "specialite" : "orl",
+            "intervention" : "Chirurgie maxillo-faciale + ouverture bucco-pharyngée",
+            "mesh" : "maxillo faciale orl",
+            "display" : "Augmentin 2g",
+            "chir_code" :  "orl_cervico_facial", 
+            "main_atb" : "Augmentin 2g IV lente (réinjection 1g toutes les 2h en per opératoire, puis 1g toutes les 6h pendant 24h)",
+            "alternate_atb": "",
+            "allergy_atb": "Dalacine 900mg IVL lente (si durée > 4h, réinjecter 600mg) + Gentamicine 5mg/kg/j (dose unique)",
+            "remarques" : ""
             }
         ]
     }
