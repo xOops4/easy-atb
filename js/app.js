@@ -26,14 +26,14 @@ const getSpecialite = () => {
 }
 
 const getIntervention = (specialite = 'vasculaire') => {
-    console.log(specialite);
+    //console.log(specialite);
     let div = document.querySelector('#intervention');
     let render = ``;
 
     fetch('./data/atb.json')
     .then(response => response.json())
     .then(data => {
-        console.log(data[0].list_specialite);
+        //console.log(data[0].list_specialite);
         let selectedSpecialite = data[0].list_specialite.filter( e => e.code == specialite)
 
         render = `
@@ -43,9 +43,10 @@ const getIntervention = (specialite = 'vasculaire') => {
             </div>
             <div class="f6">${selectedSpecialite[0].nom}</div>
         </div>
+        <p class="p15 small">${selectedSpecialite[0].bact_cible}</p>
 `;
         let interventions = data[0].data.filter( e => e.specialite == specialite)
-        console.log(interventions)
+        //console.log(interventions)
 
          interventions.forEach(element => {
             render += `

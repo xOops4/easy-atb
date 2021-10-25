@@ -1,317 +1,660 @@
 [
     {
-        "list_specialite" : [
-            {
-                "nom": "Vasculaire",
-                "code": "vasculaire",
-                "icon" : "water_drop",
-                "couleur" : "red",
-                "color" : "white",
-                "bact_cible" : "S.aureus, S. epidermidis, Propionobacterium, Streptococcus spp, E.coli, E. cloacaeK.pneumoniae, Bacillus cereus, anaérobies telluriques"
-            },
-            {
-                "nom": "Thoracique",
-                "code": "thoracique",
-                "icon" : "air",
-                "couleur" : "darksalmon",
-                "color" : "white",
-                "bact_cible" : "Staphyloccoques, S. pneumoniae, H. inflenzae, bactéries à Gram négatif"
-            },
-            {
-                "nom": "ORL",
-                "code": "orl",
-                "icon" : "face",
-                "couleur" : "darkgreen",
-                "color" : "white",
-                "bact_cible" : "Streptococcus, bactéries anaérobies, S. aureus, K. pneumoniae , E. coli"
-            },
-            {
-                "nom": "Plastique",
-                "code": "plastique",
-                "icon" : "content_cut",
-                "couleur" : "pink",
-                "color" : "black",
-                "bact_cible" : "Staphyloccoques, S. pneumoniae, H. inflenzae, bactéries à Gram négatif"
-            },
-            {
-                "nom": "Urologie",
-                "code": "urologie",
-                "icon" : "water",
-                "couleur" : "yellow",
-                "color" : "black",
-                "bact_cible" : "Staphyloccoques, S. pneumoniae, H. inflenzae, bactéries à Gram négatif"
-            },
-            {
-                "nom": "Gynécologique",
-                "code": "gynecologie",
-                "icon" : "female",
-                "couleur" : "darkblue",
-                "color" : "white",
-                "bact_cible" : "Staphyloccoques, S. pneumoniae, H. inflenzae, bactéries à Gram négatif"
-            }
-        ],
+       "list_specialite":[
+          {
+             "nom":"Vasculaire",
+             "code":"vasculaire",
+             "icon":"water_drop",
+             "couleur":"red",
+             "color":"white",
+             "bact_cible":"S.aureus, S. epidermidis, Propionobacterium, Streptococcus spp, E.coli, E. cloacaeK.pneumoniae, Bacillus cereus, anaérobies telluriques"
+          },
+          {
+             "nom":"Thoracique",
+             "code":"thoracique",
+             "icon":"air",
+             "couleur":"darksalmon",
+             "color":"white",
+             "bact_cible":"Staphyloccoques, S. pneumoniae, H. inflenzae, bactéries à Gram négatif"
+          },
+          {
+             "nom":"ORL",
+             "code":"orl",
+             "icon":"face",
+             "couleur":"darkgreen",
+             "color":"white",
+             "bact_cible":"Streptococcus, bactéries anaérobies, S. aureus, K. pneumoniae , E. coli"
+          },
+          {
+             "nom":"Plastique",
+             "code":"plastique",
+             "icon":"content_cut",
+             "couleur":"pink",
+             "color":"black",
+             "bact_cible":"Selon les enquêtes de pratique, la pratique est souvent éloignée des recommandations. La tendance est à l’utilisation extensive des antibiotiques. Les raisons en sont probablement le caractère fonctionnel de lachirurgie et une forte pression médicolégale réelle ou ressentie. En l'absence d'études méthodologiquement correctes, l'attitude résumée dans le tableau ci-dessous est proposée."
+          },
+          {
+             "nom":"Urologie",
+             "code":"urologie",
+             "icon":"water",
+             "couleur":"yellow",
+             "color":"black",
+             "bact_cible":"Entérobactéries (Escherichia coli, Klebsiella, Proteus mirabilis...), Enterococcus, staphylocoques (S. epidermidis surtout)"
+          },
+          {
+             "nom":"Gynécologique Obstétrique",
+             "code":"gynecologie",
+             "icon":"female",
+             "couleur":"darkblue",
+             "color":"white",
+             "bact_cible":"Staphylococcus aureus et flore digestive en cas d’incision cutanée, et/ou flore vaginale (flore polymicrobienne aérobies et anaérobies) en cas d’incision de l’utérus ou du vagin"
+          },
+          {
+             "nom":"RAVI",
+             "code":"ravi",
+             "icon":"laptop_chromebook",
+             "couleur":"blue",
+             "color":"white",
+             "bact_cible":"La prescription d’une ABP est assez fréquente lors de la réalisation d’un acte de radiologie interventionnelle. Cependant, le niveau de preuve scientifique est en général très bas voire nul. Si pour un individu donné la prescription d’une ABP peut être bénéfique, pour le plus grand nombre le risque de ce type de pratique est de favoriser l’apparition de résistance"
+          }
+       ],
+       "data":[
+          {
+             "specialite":"vasculaire",
+             "intervention":"Chirurgie de l'aorte",
+             "mesh":"aorte vasculaire",
+             "display":"Céfazoline 2g",
+             "chir_code":"vasc_aorte",
+             "main_atb":"Céfazoline 2g IV lente (si durée > à 4h, réinjecter 1g)",
+             "alternate_atb":"Céfamandole 1,5g IV lente (si durée > à 4h, réinjecter 0,75g) <br> Céfuroxime 1,5g IV lente (si durée > à 4h, réinjecter 0,75g)",
+             "allergy_atb":"Vancomycine 30mg/kg sur 60 min (dose unique)",
+             "remarques":"L’injection doit se terminer au plus tard lors du début de l’intervention et aux mieux 30 minutes avant"
+          },
+          {
+             "specialite":"vasculaire",
+             "intervention":"Chirurgie des artères des membres inférieurs",
+             "mesh":"artère membre inférieur artere inferieur vasculaire",
+             "display":"Céfazoline 2g",
+             "chir_code":"vasc_ami",
+             "main_atb":"Céfazoline 2g IV lente (si durée > à 4h, réinjecter 1g)",
+             "alternate_atb":"Céfamandole 1,5g IV lente (si durée > à 4h, réinjecter 0,75g) <br> Céfuroxime 1,5g IV lente (si durée > à 4h, réinjecter 0,75g)",
+             "allergy_atb":"Vancomycine 30mg/kg sur 60 min (dose unique)",
+             "remarques":"L’injection doit se terminer au plus tard lors du début de l’intervention et aux mieux 30 minutes avant"
+          },
+          {
+             "specialite":"vasculaire",
+             "intervention":"Chirurgie des troncs supra aortiques",
+             "mesh":"tronc supra aortique vasculaire",
+             "display":"Céfazoline 2g",
+             "chir_code":"vasc_tsa",
+             "main_atb":"Céfazoline 2g IV lente (si durée > à 4h, réinjecter 1g)",
+             "alternate_atb":"Céfamandole 1,5g IV lente (si durée > à 4h, réinjecter 0,75g) <br> Céfuroxime 1,5g IV lente (si durée > à 4h, réinjecter 0,75g)",
+             "allergy_atb":"Vancomycine 30mg/kg sur 60 min (dose unique)",
+             "remarques":"L’injection doit se terminer au plus tard lors du début de l’intervention et aux mieux 30 minutes avant"
+          },
+          {
+             "specialite":"vasculaire",
+             "intervention":"Endoprothèse artérielle",
+             "mesh":"endoprothèse endoprothese vasculaire",
+             "display":"Céfazoline 2g",
+             "chir_code":"vasc_endop",
+             "main_atb":"Céfazoline 2g IV lente (si durée > à 4h, réinjecter 1g)",
+             "alternate_atb":"Céfamandole 1,5g IV lente (si durée > à 4h, réinjecter 0,75g) <br> Céfuroxime 1,5g IV lente (si durée > à 4h, réinjecter 0,75g)",
+             "allergy_atb":"Vancomycine 30mg/kg sur 60 min (dose unique)",
+             "remarques":"L’injection doit se terminer au plus tard lors du début de l’intervention et aux mieux 30 minutes avant"
+          },
+          {
+             "specialite":"vasculaire",
+             "intervention":"Chirurgie carotidienne avec patch",
+             "mesh":"carotide carotidienne patch vasculaire",
+             "display":"Céfazoline 2g",
+             "chir_code":"vasc_caro_sans_patch",
+             "main_atb":"Céfazoline 2g IV lente (si durée > à 4h, réinjecter 1g)",
+             "alternate_atb":"Céfamandole 1,5g IV lente (si durée > à 4h, réinjecter 0,75g) <br> Céfuroxime 1,5g IV lente (si durée > à 4h, réinjecter 0,75g)",
+             "allergy_atb":"Vancomycine 30mg/kg sur 60 min (dose unique)",
+             "remarques":"L’injection doit se terminer au plus tard lors du début de l’intervention et aux mieux 30 minutes avant"
+          },
+          {
+             "specialite":"vasculaire",
+             "intervention":"Chirurgie carotidienne sans patch",
+             "mesh":"carotide carotidienne patch vasculaire",
+             "display":"Aucun",
+             "chir_code":"vasc_caro_avec_patch",
+             "main_atb":"",
+             "alternate_atb":"",
+             "allergy_atb":"",
+             "remarques":""
+          },
+          {
+             "specialite":"vasculaire",
+             "intervention":"Amputation de membre",
+             "mesh":"amputation membre vasculaire",
+             "display":"Augmentin 2g",
+             "chir_code":"vasc_amput",
+             "main_atb":"Augmentin 2g IV lente (1g par 6h pendant 48 heures)",
+             "alternate_atb":"",
+             "allergy_atb":"Dalacine 900mg IVL lente (600mg par 6h pendant 48 heures) + Gentamicine 5mg/kg/j (5mg/kg à 24 heure)",
+             "remarques":"L’injection doit se terminer au plus tard lors du début de l’intervention et aux mieux 30 minutes avant"
+          },
+          {
+             "specialite":"vasculaire",
+             "intervention":"Chirurgie veineuse",
+             "mesh":"carotide veine veineuse vasculaire",
+             "display":"Aucun",
+             "chir_code":"vasc_veine",
+             "main_atb":"",
+             "alternate_atb":"",
+             "allergy_atb":"",
+             "remarques":""
+          },
+          {
+             "specialite":"thoracique",
+             "intervention":"Exérèse pulmonaire",
+             "mesh":"exerese pulmonaire poumon lobectomie segmentectomie wedge résection atypique resection thoracique",
+             "display":"Augmentin 2g",
+             "chir_code":"tho_exerese",
+             "main_atb":"Augmentin 2g IV lente (si durée > à 2h, réinjecter 1g)",
+             "alternate_atb":"Céfazoline 2g IV lente (si durée > à 4h, réinjecter 1g) <br> Céfamandole 1,5g IV lente (si durée > à 4h, réinjecter 0,75g) <br> Céfuroxime 1,5g IV lente (si durée > à 4h, réinjecter 0,75g)",
+             "allergy_atb":"Dalacine 900mg IVL lente (si durée > 4h, réinjecter 600mg) + Gentamicine 5mg/kg/j (dose unique)",
+             "remarques":"L’injection doit se terminer au plus tard lors du début de l’intervention et aux mieux 30 minutes avant"
+          },
+          {
+             "specialite":"thoracique",
+             "intervention":"Chirurgie du médiastin",
+             "mesh":"mediastin médiastin médiastinoscopie mediastiniscopie thoracique",
+             "display":"Céfazoline 2g",
+             "chir_code":"tho_mediastin",
+             "main_atb":"Céfazoline 2g IV lente (si durée > à 4h, réinjecter 1g)",
+             "alternate_atb":"Céfamandole 1,5g IV lente (si durée > à 4h, réinjecter 0,75g) <br> Céfuroxime 1,5g IV lente (si durée > à 4h, réinjecter 0,75g)",
+             "allergy_atb":"Dalacine 900mg IVL lente (si durée > 4h, réinjecter 600mg) + Gentamicine 5mg/kg/j (dose unique)",
+             "remarques":"L’injection doit se terminer au plus tard lors du début de l’intervention et aux mieux 30 minutes avant"
+          },
+          {
+             "specialite":"thoracique",
+             "intervention":"Chirurgie du Pneumothorax",
+             "mesh":"pneumothorax thoracique",
+             "display":"Céfazoline 2g",
+             "chir_code":"tho_pno",
+             "main_atb":"Céfazoline 2g IV lente (si durée > à 4h, réinjecter 1g)",
+             "alternate_atb":"Céfamandole 1,5g IV lente (si durée > à 4h, réinjecter 0,75g) <br> Céfuroxime 1,5g IV lente (si durée > à 4h, réinjecter 0,75g)",
+             "allergy_atb":"Dalacine 900mg IVL lente (si durée > 4h, réinjecter 600mg) + Gentamicine 5mg/kg/j (dose unique)",
+             "remarques":"L’injection doit se terminer au plus tard lors du début de l’intervention et aux mieux 30 minutes avant"
+          },
+          {
+             "specialite":"thoracique",
+             "intervention":"Décortication (hors infection)",
+             "mesh":"décortication decortication thoracique",
+             "display":"Céfazoline 2g",
+             "chir_code":"tho_decort",
+             "main_atb":"Céfazoline 2g IV lente (si durée > à 4h, réinjecter 1g)",
+             "alternate_atb":"Céfamandole 1,5g IV lente (si durée > à 4h, réinjecter 0,75g) <br> Céfuroxime 1,5g IV lente (si durée > à 4h, réinjecter 0,75g)",
+             "allergy_atb":"Dalacine 900mg IVL lente (si durée > 4h, réinjecter 600mg) + Gentamicine 5mg/kg/j (dose unique)",
+             "remarques":"L’injection doit se terminer au plus tard lors du début de l’intervention et aux mieux 30 minutes avant"
+          },
+          {
+             "specialite":"thoracique",
+             "intervention":"Résection pariétale isolée",
+             "mesh":"résection resection paroi thoracique",
+             "display":"Céfazoline 2g",
+             "chir_code":"tho_paroi",
+             "main_atb":"Céfazoline 2g IV lente (si durée > à 4h, réinjecter 1g)",
+             "alternate_atb":"Céfamandole 1,5g IV lente (si durée > à 4h, réinjecter 0,75g) <br> Céfuroxime 1,5g IV lente (si durée > à 4h, réinjecter 0,75g)",
+             "allergy_atb":"Dalacine 900mg IVL lente (si durée > 4h, réinjecter 600mg) + Gentamicine 5mg/kg/j (dose unique)",
+             "remarques":"L’injection doit se terminer au plus tard lors du début de l’intervention et aux mieux 30 minutes avant"
+          },
+          {
+             "specialite":"thoracique",
+             "intervention":"Drainage péricardique",
+             "mesh":"drainage péricardique pericarde pericardique cardiaque thoracique",
+             "display":"Aucun",
+             "chir_code":"vasc_veine",
+             "main_atb":"",
+             "alternate_atb":"",
+             "allergy_atb":"",
+             "remarques":""
+          },
+          {
+             "specialite":"orl",
+             "intervention":"Chirurgie rhinologique + greffon",
+             "mesh":"rhinologie orl",
+             "display":"Céfazoline 2g",
+             "chir_code":"orl_rhino_greffon",
+             "main_atb":"Céfazoline 2g IV lente (dose unique)",
+             "alternate_atb":"Augmentin 2g IV lente (dose unique)",
+             "allergy_atb":"Dalacine 900mg IVL lente (si durée > 4h, réinjecter 600mg) + Gentamicine 5mg/kg/j (dose unique)",
+             "remarques":""
+          },
+          {
+             "specialite":"orl",
+             "intervention":"Chirurgie cervicofaciale + ouverture bucco-pharyngée",
+             "mesh":"rhinologie orl",
+             "display":"Augmentin 2g",
+             "chir_code":"orl_cervico_facial",
+             "main_atb":"Augmentin 2g IV lente (réinjection 1g toutes les 2h en per opératoire, puis 1g toutes les 6h pendant 24h)",
+             "alternate_atb":"",
+             "allergy_atb":"Dalacine 900mg IVL lente (si durée > 4h, réinjecter 600mg) + Gentamicine 5mg/kg/j (dose unique)",
+             "remarques":""
+          },
+          {
+             "specialite":"orl",
+             "intervention":"Chirurgie oreille moyenne",
+             "mesh":"oreille moyenne etrier étrier orl",
+             "display":"Aucun",
+             "chir_code":"orl_oreille_moyenne",
+             "main_atb":"",
+             "alternate_atb":"",
+             "allergy_atb":"",
+             "remarques":""
+          },
+          {
+             "specialite":"orl",
+             "intervention":"Glande salivaire sans accès par cavité buccopharyngée",
+             "mesh":"glande salivaire orl",
+             "display":"Aucun",
+             "chir_code":"orl_glande_salivaire",
+             "main_atb":"",
+             "alternate_atb":"",
+             "allergy_atb":"",
+             "remarques":""
+          },
+          {
+             "specialite":"orl",
+             "intervention":"Cervicotomie",
+             "mesh":"cervicotomie orl",
+             "display":"Aucun",
+             "chir_code":"orl_cervicotomie",
+             "main_atb":"",
+             "alternate_atb":"",
+             "allergy_atb":"",
+             "remarques":""
+          },
+          {
+             "specialite":"orl",
+             "intervention":"Curage ganglionnaire",
+             "mesh":"curage ganglionnaireorl",
+             "display":"Aucun",
+             "chir_code":"orl_curage_ganglionnaire",
+             "main_atb":"",
+             "alternate_atb":"",
+             "allergy_atb":"",
+             "remarques":""
+          },
+          {
+             "specialite":"orl",
+             "intervention":"Chirurgie vélopalatine",
+             "mesh":"velopalatine palais voile orl",
+             "display":"Aucun",
+             "chir_code":"orl_velopalat",
+             "main_atb":"",
+             "alternate_atb":"",
+             "allergy_atb":"",
+             "remarques":""
+          },
+          {
+             "specialite":"orl",
+             "intervention":"Chirurgie nasosinusienne + méchage",
+             "mesh":"nasale sinus mechage méchage nasosinusienne orl",
+             "display":"Augmentin 2g",
+             "chir_code":"orl_nasosinus",
+             "main_atb":"Augmentin 2g IV lente (réinjection 1g toutes les 2h en per opératoire, puis 1g toutes les 6h pendant 24h)",
+             "alternate_atb":"",
+             "allergy_atb":"Dalacine 900mg IVL lente (si durée > 4h, réinjecter 600mg) + Gentamicine 5mg/kg/j (dose unique)",
+             "remarques":""
+          },
+          {
+             "specialite":"orl",
+             "intervention":"Chirurgie maxillo-faciale + ouverture bucco-pharyngée",
+             "mesh":"maxillo faciale orl",
+             "display":"Augmentin 2g",
+             "chir_code":"orl_maxillo_facial",
+             "main_atb":"Augmentin 2g IV lente (réinjection 1g toutes les 2h en per opératoire, puis 1g toutes les 6h pendant 24h)",
+             "alternate_atb":"",
+             "allergy_atb":"Dalacine 900mg IVL lente (si durée > 4h, réinjecter 600mg) + Gentamicine 5mg/kg/j (dose unique)",
+             "remarques":""
+          },
+          {
+             "specialite":"orl",
+             "intervention":"Amygdalectomie simple",
+             "mesh":"amydgale amygdalectomie orl",
+             "display":"Aucun",
+             "chir_code":"orl_amygdale",
+             "main_atb":"",
+             "alternate_atb":"",
+             "allergy_atb":"",
+             "remarques":""
+          },
+          {
+             "specialite":"urologie",
+             "intervention":"RTUP, RTUV, incision cervicoprostatique, adénomectomie",
+             "mesh":"prostate rtup  rtuv vessie resection résection urologie",
+             "display":"Céfazoline 2g",
+             "chir_code":"uro_rtup",
+             "main_atb":"Céfazoline 2g IV lente (si durée > à 4h, réinjecter 1g)",
+             "alternate_atb":"Céfamandole 1,5g IV lente (si durée > à 4h, réinjecter 0,75g) <br> Céfuroxime 1,5g IV lente (si durée > à 4h, réinjecter 0,75g)",
+             "allergy_atb":"Gentamicine 5mg/kg (dose unique)",
+             "remarques":"L’injection doit se terminer au plus tard lors du début de l’intervention et aux mieux 30 minutes avant"
+          },
+          {
+             "specialite":"urologie",
+             "intervention":"Prostatectomie totale",
+             "mesh":"prostate prostatectomie totale urologie",
+             "display":"Aucun",
+             "chir_code":"uro_prostatec",
+             "main_atb":"",
+             "alternate_atb":"",
+             "allergy_atb":"",
+             "remarques":""
+          },
+          {
+             "specialite":"urologie",
+             "intervention":"Biopsie de la prostate",
+             "mesh":"prostate biopsie urologie",
+             "display":"Ofloxacine 400mg",
+             "chir_code":"uro_biopsie_prostate",
+             "main_atb":"Ofloxacine per os 400mg 1 heure avant la biopsie (dose unique)",
+             "alternate_atb":"",
+             "allergy_atb":"Ceftriaxone 1g (dose unique)",
+             "remarques":"Per os 1 heure avant le geste"
+          },
+          {
+             "specialite":"urologie",
+             "intervention":"URSS, néphrostomie, Sonde JJ ou urétérale ",
+             "mesh":"urss ureteroscopie urétéroscopie sonde JJ urétérale urologie",
+             "display":"Céfazoline 2g",
+             "chir_code":"uro_urss",
+             "main_atb":"Céfazoline 2g IV lente (si durée > à 4h, réinjecter 1g)",
+             "alternate_atb":"Céfamandole 1,5g IV lente (si durée > à 4h, réinjecter 0,75g) <br> Céfuroxime 1,5g IV lente (si durée > à 4h, réinjecter 0,75g)",
+             "allergy_atb":"Gentamicine 5mg/kg (dose unique)",
+             "remarques":"L’injection doit se terminer au plus tard lors du début de l’intervention et aux mieux 30 minutes avant"
+          },
+          {
+             "specialite":"urologie",
+             "intervention":"Néphrectomie et chirurgie du haut appareil",
+             "mesh":"néphrectomie nephrectomie haut appareil urologie",
+             "display":"Aucun",
+             "chir_code":"uro_nephrectomie",
+             "main_atb":"",
+             "alternate_atb":"",
+             "allergy_atb":"",
+             "remarques":""
+          },
+          {
+             "specialite":"urologie",
+             "intervention":"Surrénalectomie",
+             "mesh":"surrenalectomie surrénalectomie urologie",
+             "display":"Aucun",
+             "chir_code":"uro_surrenal",
+             "main_atb":"",
+             "alternate_atb":"",
+             "allergy_atb":"",
+             "remarques":""
+          },
+          {
+             "specialite":"urologie",
+             "intervention":"Lithotripsie extra-corporelle",
+             "mesh":"lec lithotripsie extra corporelle urologie",
+             "display":"Aucun",
+             "chir_code":"uro_lec",
+             "main_atb":"",
+             "alternate_atb":"",
+             "allergy_atb":"",
+             "remarques":""
+          },
+          {
+             "specialite":"urologie",
+             "intervention":"Cystectomie Bricker",
+             "mesh":"cystectomie bricker remplacement vessie urologie",
+             "display":"Augmentin 2g",
+             "chir_code":"uro_lec",
+             "main_atb":"Augmentin 2g IV lente (si durée > à 2h, réinjecter 1g)",
+             "alternate_atb":"",
+             "allergy_atb":"Gentamicine 5mg/kg (dose unique) + métronisazole 1g en perfusion (dose unique)",
+             "remarques":""
+          },
+          {
+             "specialite":"gynecologie",
+             "intervention":"Hystérectomie par coelioscopie",
+             "mesh":"hysterectomie coelioscopie gynecologie gynécologie",
+             "display":"Céfazoline 2g",
+             "chir_code":"gyneco_hysterectomie",
+             "main_atb":"Céfazoline 2g IV lente (si durée > à 4h, réinjecter 1g)",
+             "alternate_atb":"Céfamandole 1,5g IV lente (si durée > à 4h, réinjecter 0,75g) <br> Céfuroxime 1,5g IV lente (si durée > à 4h, réinjecter 0,75g)",
+             "allergy_atb":"Clindamycine 900 mg IV lente (dose unique) + Gentamicine 5 mg/kg/j (dose unique)",
+             "remarques":"L’injection doit se terminer au plus tard lors du début de l’intervention et aux mieux 30 minutes avant"
+          },
+          {
+             "specialite":"gynecologie",
+             "intervention":"Coelioscopie diagnostique/exploratrice sans incision vaginale/digestive",
+             "mesh":"coelio explo",
+             "display":"Aucun",
+             "chir_code":"gyneco_coelio_explo",
+             "main_atb":"",
+             "alternate_atb":"",
+             "allergy_atb":"",
+             "remarques":""
+          },
+          {
+             "specialite":"gynecologie",
+             "intervention":"Hystéroscopie Hystérosalpingographie",
+             "mesh":"hysteroscopie gynecologie gynécologie",
+             "display":"Aucun",
+             "chir_code":"hysteroscopie",
+             "main_atb":"",
+             "alternate_atb":"",
+             "allergy_atb":"",
+             "remarques":""
+          },
+          {
+             "specialite":"gynecologie",
+             "intervention":"Ponction ovocyte",
+             "mesh":"fiv gynecologie gynécologie",
+             "display":"Aucun",
+             "chir_code":"gyneco_fiv",
+             "main_atb":"",
+             "alternate_atb":"",
+             "allergy_atb":"",
+             "remarques":""
+          },
+          {
+             "specialite":"gynecologie",
+             "intervention":"Ponction ovocyte + endométriose",
+             "mesh":"fiv endometriose endométriose gynecologie gynécologie",
+             "display":"Céfazoline 2g",
+             "chir_code":"gyneco_fiv_endo",
+             "main_atb":"Céfazoline 2g IV lente (si durée > à 4h, réinjecter 1g)",
+             "alternate_atb":"",
+             "allergy_atb":" Clindamycine 900 mg IV lente (dose unique)",
+             "remarques":""
+          },
+          {
+             "specialite":"gynecologie",
+             "intervention":"Interruption volontaire de grossesse",
+             "mesh":"ivg gynecologie gynécologie",
+             "display":"Aucun",
+             "chir_code":"gyneco_ivg",
+             "main_atb":"",
+             "alternate_atb":"",
+             "allergy_atb":"",
+             "remarques":""
+          },
+          {
+             "specialite":"gynecologie",
+             "intervention":"Césarienne",
+             "mesh":"cesarienne césarienne gynecologie obstétrique",
+             "display":"Cefazoline 2g",
+             "chir_code":"gyneco_Cesarienne",
+             "main_atb":"Cefazoline 2g IV lente (dose unique)",
+             "alternate_atb":"Céfamandole 1,5g IV lente (si durée > à 4h, réinjecter 0,75g) <br> Céfuroxime 1,5g IV lente (si durée > à 4h, réinjecter 0,75g ",
+             "allergy_atb":"Clindamycine 900 mg IV lente (dose unique) + Gentamicine 5 mg/kg/j (dose unique)",
+             "remarques":"L’injection doit se terminer au plus tard lors du début de l’intervention et aux mieux 30 minutes avant "
+          },
+          {
+             "specialite":"gynecologie",
+             "intervention":"Mastectomie + reconstruction ou plastie mamaire",
+             "mesh":"Mastectomie reconstruction gynecologie gynécologie",
+             "display":"Cefazoline 2g",
+             "chir_code":"gyneco_mastectomie",
+             "main_atb":"Cefazoline 2g IV lente (dose unique)",
+             "alternate_atb":" Céfamandole 1,5g IV lente (si durée > à 4h, réinjecter 0,75g) <br> Céfuroxime 1,5g IV lente (si durée > à 4h, réinjecter 0,75g ",
+             "allergy_atb":" Clindamycine 900 mg IV lente (si durée > 4h, réinjecter 600 mg) + Gentamicine 5 mg/kg/j (dose unique)",
+             "remarques":"L’injection doit se terminer au plus tard lors du début de l’intervention et aux mieux 30 minutes avant "
+          },
+          {
+             "specialite":"gynecologie",
+             "intervention":"Tumorectomie mammaire simple",
+             "mesh":"tumorectomie gynecologie gynécologie",
+             "display":"Aucun",
+             "chir_code":"gyneco_tumorectomie",
+             "main_atb":"",
+             "alternate_atb":"",
+             "allergy_atb":"",
+             "remarques":""
+          },
+          {
+             "specialite":"gynecologie",
+             "intervention":"Promontofixation, bandelettes TVT",
+             "mesh":"Prolapsus promontofixation gynécologique gynecologie",
+             "display":"Augmentin 2g",
+             "chir_code":"gyneco_prolapsus",
+             "main_atb":" Augmentin 2g IV lente (si durée >2h, réinjecter 1g)",
+             "alternate_atb":"",
+             "allergy_atb":" Metronidazole 1g IVL (dose unique) + Gentamicine 5 mg/kg/j (dose unique)",
+             "remarques":"L’injection doit se terminer au plus tard lors du début de l’intervention et aux mieux 30 minutes avant "
+          },
+          {
+             "specialite":"ravi",
+             "intervention":"Embolisation",
+             "mesh":"embolisation utérine embolisation fibromes utérins",
+             "display":"Aucun",
+             "chir_code":"ravi_embolisation",
+             "main_atb":"",
+             "alternate_atb":"",
+             "allergy_atb":"",
+             "remarques":""
+          },
+          {
+             "specialite":"ravi",
+             "intervention":"TIPS",
+             "mesh":"tips",
+             "display":"Aucun",
+             "chir_code":"ravi_tips",
+             "main_atb":"",
+             "alternate_atb":"",
+             "allergy_atb":"",
+             "remarques":""
+          },
+          {
+             "specialite":"ravi",
+             "intervention":"Drainage biliaire pour obstruction cancereuse, bénigne ou lithiase",
+             "mesh":"drainage biliaire",
+             "display":"Traitement curatif",
+             "chir_code":"ravi_drainage_biliaire",
+             "main_atb":"",
+             "alternate_atb":"",
+             "allergy_atb":"",
+             "remarques":""
+          },
+          {
+             "specialite":"ravi",
+             "intervention":"Gastrostomie endoscopique/Sclérose de varices oesophagiennes ",
+             "mesh":"gastrostomie endoscopique, sclérose de varices oesophagiennes",
+             "display":"Augmentin 2g",
+             "chir_code":"ravi_gastrostomie_sclérose_varices_oeso",
+             "main_atb":"Augmentin 2g IV lente (dose unique)",
+             "alternate_atb":"",
+             "allergy_atb":"Clindamycine 900 mg IV lente (si durée > 4h, réinjecter 600 mg) + Gentamicine 5 mg/kg/j (dose unique)",
+             "remarques":""
+          },
+          {
+             "specialite":"ravi",
+             "intervention":"Radio-fréquence",
+             "mesh":"radio-fréquence",
+             "display":"Aucun",
+             "chir_code":"ravi_radiofrequence",
+             "main_atb":"",
+             "alternate_atb":"",
+             "allergy_atb":"",
+             "remarques":""
+          },
 
-        "data" : [
-            {
-                "specialite" : "vasculaire",
-                "intervention" : "Chirurgie de l'aorte",
-                "mesh" : "aorte vasculaire",
-                "display" : "Céfazoline 2g",
-                "chir_code" :  "vasc_aorte", 
-                "main_atb" : "Céfazoline 2g IV lente (si durée > à 4h, réinjecter 1g)",
-                "alternate_atb": "Céfamandole 1,5g IV lente (si durée > à 4h, réinjecter 0,75g) <br> Céfuroxime 1,5g IV lente (si durée > à 4h, réinjecter 0,75g)",
-                "allergy_atb": "Vancomycine 30mg/kg sur 60 min (dose unique)",
-                "remarques" : "L’injection doit se terminer au plus tard lors du début de l’intervention et aux mieux 30 minutes avant"
-            },
-            {
-                "specialite" : "vasculaire",
-                "intervention" : "Chirurgie des artères des membres inférieurs",
-                "mesh" : "artère membre inférieur artere inferieur vasculaire",
-                "display" : "Céfazoline 2g",
-                "chir_code" :  "vasc_ami", 
-                "main_atb" : "Céfazoline 2g IV lente (si durée > à 4h, réinjecter 1g)",
-                "alternate_atb": "Céfamandole 1,5g IV lente (si durée > à 4h, réinjecter 0,75g) <br> Céfuroxime 1,5g IV lente (si durée > à 4h, réinjecter 0,75g)",
-                "allergy_atb": "Vancomycine 30mg/kg sur 60 min (dose unique)",
-                "remarques" : "L’injection doit se terminer au plus tard lors du début de l’intervention et aux mieux 30 minutes avant"
-            },
-            {
-                "specialite" : "vasculaire",
-                "intervention" : "Chirurgie des troncs supra aortiques",
-                "mesh" : "tronc supra aortique vasculaire",
-                "display" : "Céfazoline 2g",
-                "chir_code" :  "vasc_tsa", 
-                "main_atb" : "Céfazoline 2g IV lente (si durée > à 4h, réinjecter 1g)",
-                "alternate_atb": "Céfamandole 1,5g IV lente (si durée > à 4h, réinjecter 0,75g) <br> Céfuroxime 1,5g IV lente (si durée > à 4h, réinjecter 0,75g)",
-                "allergy_atb": "Vancomycine 30mg/kg sur 60 min (dose unique)",
-                "remarques" : "L’injection doit se terminer au plus tard lors du début de l’intervention et aux mieux 30 minutes avant"
-            },
-            {
-                "specialite" : "vasculaire",
-                "intervention" : "Endoprothèse artérielle",
-                "mesh" : "endoprothèse endoprothese vasculaire",
-                "display" : "Céfazoline 2g",
-                "chir_code" :  "vasc_endop", 
-                "main_atb" : "Céfazoline 2g IV lente (si durée > à 4h, réinjecter 1g)",
-                "alternate_atb": "Céfamandole 1,5g IV lente (si durée > à 4h, réinjecter 0,75g) <br> Céfuroxime 1,5g IV lente (si durée > à 4h, réinjecter 0,75g)",
-                "allergy_atb": "Vancomycine 30mg/kg sur 60 min (dose unique)",
-                "remarques" : "L’injection doit se terminer au plus tard lors du début de l’intervention et aux mieux 30 minutes avant"
-            },
-            {
-                "specialite" : "vasculaire",
-                "intervention" : "Chirurgie carotidienne avec patch",
-                "mesh" : "carotide carotidienne patch vasculaire",
-                "display" : "Céfazoline 2g",
-                "chir_code" :  "vasc_caro_sans_patch", 
-                "main_atb" : "Céfazoline 2g IV lente (si durée > à 4h, réinjecter 1g)",
-                "alternate_atb": "Céfamandole 1,5g IV lente (si durée > à 4h, réinjecter 0,75g) <br> Céfuroxime 1,5g IV lente (si durée > à 4h, réinjecter 0,75g)",
-                "allergy_atb": "Vancomycine 30mg/kg sur 60 min (dose unique)",
-                "remarques" : "L’injection doit se terminer au plus tard lors du début de l’intervention et aux mieux 30 minutes avant"
-            },   
-            {
-                "specialite" : "vasculaire",
-                "intervention" : "Chirurgie carotidienne sans patch",
-                "mesh" : "carotide carotidienne patch vasculaire",
-                "display" : "Aucun",
-                "chir_code" :  "vasc_caro_avec_patch", 
-                "main_atb" : "",
-                "alternate_atb": "",
-                "allergy_atb": "",
-                "remarques" : ""
-            },
-            {
-                "specialite" : "vasculaire",
-                "intervention" : "Amputation de membre",
-                "mesh" : "amputation membre vasculaire",
-                "display" : "Augmentin 2g",
-                "chir_code" :  "vasc_amput", 
-                "main_atb" : "Augmentin 2g IV lente (1g par 6h pendant 48 heures)",
-                "alternate_atb": "",
-                "allergy_atb": "Dalacine 900mg IVL lente (600mg par 6h pendant 48 heures) + Gentamicine 5mg/kg/j (5mg/kg à 24 heure)",
-                "remarques" : "L’injection doit se terminer au plus tard lors du début de l’intervention et aux mieux 30 minutes avant"
-            },  
-            {
-                "specialite" : "vasculaire",
-                "intervention" : "Chirurgie veineuse",
-                "mesh" : "carotide veine veineuse vasculaire",
-                "display" : "Aucun",
-                "chir_code" :  "vasc_veine", 
-                "main_atb" : "",
-                "alternate_atb": "",
-                "allergy_atb": "",
-                "remarques" : ""
-            },
-        
-            {
-                "specialite" : "thoracique",
-                "intervention" : "Exérèse pulmonaire",
-                "mesh" : "exerese pulmonaire poumon lobectomie segmentectomie wedge résection atypique resection thoracique",
-                "display" : "Augmentin 2g",
-                "chir_code" :  "tho_exerese", 
-                "main_atb" : "Augmentin 2g IV lente (si durée > à 2h, réinjecter 1g)",
-                "alternate_atb": "Céfazoline 2g IV lente (si durée > à 4h, réinjecter 1g) <br> Céfamandole 1,5g IV lente (si durée > à 4h, réinjecter 0,75g) <br> Céfuroxime 1,5g IV lente (si durée > à 4h, réinjecter 0,75g)",
-                "allergy_atb": "Dalacine 900mg IVL lente (si durée > 4h, réinjecter 600mg) + Gentamicine 5mg/kg/j (dose unique)",
-                "remarques" : "L’injection doit se terminer au plus tard lors du début de l’intervention et aux mieux 30 minutes avant"
-            },    
-            {
-                "specialite" : "thoracique",
-                "intervention" : "Chirurgie du médiastin",
-                "mesh" : "mediastin médiastin médiastinoscopie mediastiniscopie thoracique",
-                "display" : "Céfazoline 2g",
-                "chir_code" :  "tho_mediastin", 
-                "main_atb" : "Céfazoline 2g IV lente (si durée > à 4h, réinjecter 1g)",
-                "alternate_atb": "Céfamandole 1,5g IV lente (si durée > à 4h, réinjecter 0,75g) <br> Céfuroxime 1,5g IV lente (si durée > à 4h, réinjecter 0,75g)",
-                "allergy_atb": "Dalacine 900mg IVL lente (si durée > 4h, réinjecter 600mg) + Gentamicine 5mg/kg/j (dose unique)",
-                "remarques" : "L’injection doit se terminer au plus tard lors du début de l’intervention et aux mieux 30 minutes avant"
-            },
-            {
-                "specialite" : "thoracique",
-                "intervention" : "Chirurgie du Pneumothorax",
-                "mesh" : "pneumothorax thoracique",
-                "display" : "Céfazoline 2g",
-                "chir_code" :  "tho_pno", 
-                "main_atb" : "Céfazoline 2g IV lente (si durée > à 4h, réinjecter 1g)",
-                "alternate_atb": "Céfamandole 1,5g IV lente (si durée > à 4h, réinjecter 0,75g) <br> Céfuroxime 1,5g IV lente (si durée > à 4h, réinjecter 0,75g)",
-                "allergy_atb": "Dalacine 900mg IVL lente (si durée > 4h, réinjecter 600mg) + Gentamicine 5mg/kg/j (dose unique)",
-                "remarques" : "L’injection doit se terminer au plus tard lors du début de l’intervention et aux mieux 30 minutes avant"
-            },
-            {
-                "specialite" : "thoracique",
-                "intervention" : "Décortication (hors infection)",
-                "mesh" : "décortication decortication thoracique",
-                "display" : "Céfazoline 2g",
-                "chir_code" :  "tho_decort", 
-                "main_atb" : "Céfazoline 2g IV lente (si durée > à 4h, réinjecter 1g)",
-                "alternate_atb": "Céfamandole 1,5g IV lente (si durée > à 4h, réinjecter 0,75g) <br> Céfuroxime 1,5g IV lente (si durée > à 4h, réinjecter 0,75g)",
-                "allergy_atb": "Dalacine 900mg IVL lente (si durée > 4h, réinjecter 600mg) + Gentamicine 5mg/kg/j (dose unique)",
-                "remarques" : "L’injection doit se terminer au plus tard lors du début de l’intervention et aux mieux 30 minutes avant"
-            },
-            {
-                "specialite" : "thoracique",
-                "intervention" : "Résection pariétale isolée",
-                "mesh" : "résection resection paroi thoracique",
-                "display" : "Céfazoline 2g",
-                "chir_code" :  "tho_paroi", 
-                "main_atb" : "Céfazoline 2g IV lente (si durée > à 4h, réinjecter 1g)",
-                "alternate_atb": "Céfamandole 1,5g IV lente (si durée > à 4h, réinjecter 0,75g) <br> Céfuroxime 1,5g IV lente (si durée > à 4h, réinjecter 0,75g)",
-                "allergy_atb": "Dalacine 900mg IVL lente (si durée > 4h, réinjecter 600mg) + Gentamicine 5mg/kg/j (dose unique)",
-                "remarques" : "L’injection doit se terminer au plus tard lors du début de l’intervention et aux mieux 30 minutes avant"
-            },
-            {
-                "specialite" : "thoracique",
-                "intervention" : "Drainage péricardique",
-                "mesh" : "drainage péricardique pericarde pericardique cardiaque thoracique",
-                "display" : "Aucun",
-                "chir_code" :  "vasc_veine", 
-                "main_atb" : "",
-                "alternate_atb": "",
-                "allergy_atb": "",
-                "remarques" : ""
-            },
+          {
+            "specialite":"ravi",
+            "intervention":"Cryoablation",
+            "mesh":"cryo ablation",
+            "display":"Aucun",
+            "chir_code":"ravi_cryoablation",
+            "main_atb":"",
+            "alternate_atb":"",
+            "allergy_atb":"",
+            "remarques":""
+         },
 
-
-            {
-                "specialite" : "orl",
-                "intervention" : "Chirurgie rhinologique + greffon",
-                "mesh" : "rhinologie orl",
-                "display" : "Céfazoline 2g",
-                "chir_code" :  "orl_rhino_greffon", 
-                "main_atb" : "Céfazoline 2g IV lente (dose unique)",
-                "alternate_atb": "Augmentin 2g IV lente (dose unique)",
-                "allergy_atb": "Dalacine 900mg IVL lente (si durée > 4h, réinjecter 600mg) + Gentamicine 5mg/kg/j (dose unique)",
-                "remarques" : ""
-            },
-            {
-                "specialite" : "orl",
-                "intervention" : "Chirurgie cervicofaciale + ouverture bucco-pharyngée",
-                "mesh" : "rhinologie orl",
-                "display" : "Augmentin 2g",
-                "chir_code" :  "orl_cervico_facial", 
-                "main_atb" : "Augmentin 2g IV lente (réinjection 1g toutes les 2h en per opératoire, puis 1g toutes les 6h pendant 24h)",
-                "alternate_atb": "",
-                "allergy_atb": "Dalacine 900mg IVL lente (si durée > 4h, réinjecter 600mg) + Gentamicine 5mg/kg/j (dose unique)",
-                "remarques" : ""
-            },
-            {
-                "specialite" : "orl",
-                "intervention" : "Chirurgie oreille moyenne",
-                "mesh" : "oreille moyenne etrier étrier orl",
-                "display" : "Aucun",
-                "chir_code" :  "orl_oreille_moyenne", 
-                "main_atb" : "",
-                "alternate_atb": "",
-                "allergy_atb": "",
-                "remarques" : ""
-            },
-
-            {
-                "specialite" : "orl",
-                "intervention" : "Glande salivaire sans accès par cavité buccopharyngée",
-                "mesh" : "glande salivaire orl",
-                "display" : "Aucun",
-                "chir_code" :  "orl_glande_salivaire", 
-                "main_atb" : "",
-                "alternate_atb": "",
-                "allergy_atb": "",
-                "remarques" : ""
-            },
-
-            {
-                "specialite" : "orl",
-                "intervention" : "Cervicotomie",
-                "mesh" : "cervicotomie orl",
-                "display" : "Aucun",
-                "chir_code" :  "orl_cervicotomie", 
-                "main_atb" : "",
-                "alternate_atb": "",
-                "allergy_atb": "",
-                "remarques" : ""
-            },
-
-            {
-                "specialite" : "orl",
-                "intervention" : "Curage ganglionnaire",
-                "mesh" : "curage ganglionnaireorl",
-                "display" : "Aucun",
-                "chir_code" :  "orl_curage_ganglionnaire", 
-                "main_atb" : "",
-                "alternate_atb": "",
-                "allergy_atb": "",
-                "remarques" : ""
-            },
-
-            {
-                "specialite" : "orl",
-                "intervention" : "Chirurgie vélopalatine",
-                "mesh" : "velopalatine palais voile orl",
-                "display" : "Aucun",
-                "chir_code" :  "orl_velopalat", 
-                "main_atb" : "",
-                "alternate_atb": "",
-                "allergy_atb": "",
-                "remarques" : ""
-            },
-            {
-            "specialite" : "orl",
-            "intervention" : "Chirurgie nasosinusienne + méchage",
-            "mesh" : "nasale sinus mechage méchage nasosinusienne orl",
-            "display" : "Augmentin 2g",
-            "chir_code" :  "orl_nasosinus", 
-            "main_atb" : "Augmentin 2g IV lente (réinjection 1g toutes les 2h en per opératoire, puis 1g toutes les 6h pendant 24h)",
-            "alternate_atb": "",
-            "allergy_atb": "Dalacine 900mg IVL lente (si durée > 4h, réinjecter 600mg) + Gentamicine 5mg/kg/j (dose unique)",
-            "remarques" : ""
-            },
-            {
-            "specialite" : "orl",
-            "intervention" : "Chirurgie maxillo-faciale + ouverture bucco-pharyngée",
-            "mesh" : "maxillo faciale orl",
-            "display" : "Augmentin 2g",
-            "chir_code" :  "orl_maxillo_facial", 
-            "main_atb" : "Augmentin 2g IV lente (réinjection 1g toutes les 2h en per opératoire, puis 1g toutes les 6h pendant 24h)",
-            "alternate_atb": "",
-            "allergy_atb": "Dalacine 900mg IVL lente (si durée > 4h, réinjecter 600mg) + Gentamicine 5mg/kg/j (dose unique)",
-            "remarques" : ""
-            }
-        ]
+         {
+            "specialite":"ravi",
+            "intervention":"Cimentoplastie",
+            "mesh":"cimentoplastie",
+            "display":"Aucun",
+            "chir_code":"ravi_cimento",
+            "main_atb":"",
+            "alternate_atb":"",
+            "allergy_atb":"",
+            "remarques":""
+         },
+          {
+             "specialite":"ravi",
+             "intervention":"Catheters et PAC",
+             "mesh":"PAC",
+             "display":"Aucun",
+             "chir_code":"ravi_pac",
+             "main_atb":"",
+             "alternate_atb":"",
+             "allergy_atb":"",
+             "remarques":""
+          },
+          {
+             "specialite":"ravi",
+             "intervention":"Dilatation endoscopique",
+             "mesh":"dilatation endoscopique, coagulation au plasma argon",
+             "display":"Aucun",
+             "chir_code":"ravi_dilatation_endoscopique",
+             "main_atb":"",
+             "alternate_atb":"",
+             "allergy_atb":"",
+             "remarques":""
+          },
+          {
+             "specialite":"ravi",
+             "intervention":"Coagulation au plasma argon",
+             "mesh":"coagulation au plasma argon",
+             "display":"Aucun",
+             "chir_code":"ravi_coagulation_plasma_argon",
+             "main_atb":"",
+             "alternate_atb":"",
+             "allergy_atb":"",
+             "remarques":""
+          },
+          {
+             "specialite":"ravi",
+             "intervention":"Endoprothese/Stent (sauf intra-coronarien)",
+             "mesh":"endoprothese/stent digestif",
+             "display":"Aucun",
+             "chir_code":"ravi_endoprothese",
+             "main_atb":"",
+             "alternate_atb":"",
+             "allergy_atb":"",
+             "remarques":""
+          },
+          {
+             "specialite":"ravi",
+             "intervention":"Néphrostomie",
+             "mesh":"nephrostomie",
+             "display":"Aucun",
+             "chir_code":"ravi_nephrostomie",
+             "main_atb":"",
+             "alternate_atb":"",
+             "allergy_atb":"",
+             "remarques":""
+          }
+       ]
     }
-]
+ ]

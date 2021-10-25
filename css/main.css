@@ -12,6 +12,8 @@
 .right {text-align: right;}
 .center {text-align: center;}
 
+.small {font-size: 0.8rem;}
+
 .f1 {flex:1;}
 .f2 {flex:2;}
 .f3 {flex:3;}
@@ -21,18 +23,20 @@
 .f7 {flex:7;}
 .f8 {flex:8;}
 .p5 {padding: 5px;}
+.p15 {padding: 15px;}
 .white {color:white;}
 
-.big-icon {font-size: 4rem;}
+.big-icon {font-size: 3rem;}
 .mid-icon {font-size: 2rem;}
 .top5 {
     position: relative;
     top: 5px;
 }
-
+body {
+    background: #ececec;}
 header {
     width: 100vw;
-    background: #ffffff;  /* fallback for old browsers */
+    background: #ececec;
     height: 80px;
     display: flex;
     justify-content: center;
@@ -41,7 +45,7 @@ header {
     justify-items: center;
     flex-direction: row;
 }
-
+main {background: #ececec;}
 header .title {
     font-size: 1.1rem;
     color: black;
@@ -72,8 +76,10 @@ header .title {
 }
 #specialite section {
     cursor: pointer;
-    flex: 1 0 30%;
+    flex: 1;
+    min-width: 30vw;
     display: flex;    
+    flex-wrap: nowrap;
     flex-direction: column;
     justify-content: center;
     align-items: center;
@@ -81,13 +87,13 @@ header .title {
     justify-items: center;
     padding: 20px;
     aspect-ratio: 1/1;
-    margin: 10px;
+    margin: 15px;
     border-radius: 20px;
-    box-shadow: 0 0 10px grey;
+    box-shadow:  5px 5px 15px #bebebe, -5px -5px 15px #ffffff;
     color: var(--text);
 }
 #specialite section .subtitle {
-    font-size: .85rem;
+    font-size: .7rem;
 }
 
 #intervention .sub-header {
